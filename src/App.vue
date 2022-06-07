@@ -18,7 +18,7 @@ export default {
   name: 'App',
   components:{
     Main,
-    Article,   
+    Article,
     ComponentA,
     Popup,
     Input,
