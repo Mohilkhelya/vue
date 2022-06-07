@@ -1,6 +1,7 @@
 <template>
   <div id="app">
     <Input  v-model="nick"/>
+    <Card />
   </div>
 </template>
 
@@ -10,16 +11,18 @@ import Article from './components/Article.vue'
 import ComponentA from './components/ComponentA.vue'
 import Popup from './components/Popup.vue'
 import Input from './components/Input.vue'
+import Card from './components/Card.vue'
 
 
 export default {    
   name: 'App',
   components:{
     Main,
-    Article,
+    Article,   
     ComponentA,
     Popup,
     Input,
+    Card,
   },
   
   data(){
